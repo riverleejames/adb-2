@@ -1,16 +1,35 @@
 {
-  "name": "graphql",
+  "name": "",
   "version": "1.0.0",
-  "description": "GraphQL implementation for Neo4j",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
-  "author": "River Lee James",
-  "license": "ISC",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "scripts": {
+    "dev": "",
+    "test": ""
+  },
   "dependencies": {
+    "@apollo/server": "^4.9.5",
     "@neo4j/graphql": "^4.4.2",
-    "apollo-server": "^3.13.0",
-    "graphql": "^16.8.1"
+    "@neo4j/introspector": "^2.0.0"
   }
 }
